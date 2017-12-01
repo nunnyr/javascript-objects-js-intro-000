@@ -3,9 +3,9 @@ var playlist = {
 }
 
 function updatePlaylist(playlist, artist, title) {
-
+    playlist[artist] = title 
 }
 
 function removeFromPlaylist(playlist, artist) {
-
+      playlist[artist] = title 
 }
